@@ -1,6 +1,6 @@
 {
   "name": "mecab-naist-jdic-utf-8",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "NAIST JDIC in UTF-8 format - a Japanese dictionary for use with Mecab.",
   "main": "index.js",
   "scripts": {
