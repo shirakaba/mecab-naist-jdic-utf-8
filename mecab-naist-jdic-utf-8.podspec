@@ -3,8 +3,9 @@ require 'json'
 package = JSON.parse(File.read(File.join(__dir__, 'package.json')))
 
 Pod::Spec.new do |s|
-
-  s.name         = package['name']
+  
+  # "mecab-naist-jdic-utf-8"triggers npm's spam detection, so we can't share exact names with package.json
+  s.name         = "mecab-naist-jdic-utf-8"
   s.version      = package['version']
   s.summary      = package['description']
   s.homepage     = "https://github.com/shirakaba/mecab-naist-jdic-utf-8"

@@ -21,17 +21,17 @@ pod update
 Add this npm package:
 
 ```sh
-yarn add mecab-naist-jdic-utf-8
+yarn add mecab-naist-jdic
 
 # or:
 
-npm install --save mecab-naist-jdic-utf-8
+npm install --save mecab-naist-jdic
 ```
 
 Next, specify this pod in your `Podfile`:
 
 ```ruby
-pod 'mecab-naist-jdic-utf-8', :podspec => '../node_modules/mecab-naist-jdic-utf-8/mecab-naist-jdic-utf-8.podspec'
+pod 'mecab-naist-jdic-utf-8', :podspec => '../node_modules/mecab-naist-jdic/mecab-naist-jdic-utf-8.podspec'
 ```
 
 Don't forget to install the pods.
