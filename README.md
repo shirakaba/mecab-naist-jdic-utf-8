@@ -90,6 +90,14 @@ It's based on IPADIC, and the tags are fully documented here https://osdn.net/pr
 に: 助詞,副詞化,*,*,*,*,に,ニ,ニ  
 ```
 
+The following non-Japanese word demonstrates that the last two feature columns may be `null` if accessed:
+
+> Skip
+
+```
+Skip: 名詞,固有名詞,組織,*,*,*,*
+```
+
 ## License
 
 `mecab-naist-jdic-utf-8` is available only under the BSD licence: `mecab-naist-jdic-utf-8/bundleContents/COPYING`.
