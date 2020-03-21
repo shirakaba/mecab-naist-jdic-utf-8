@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/shirakaba/mecab-naist-jdic-utf-8"
   s.license      = { :type => "BSD", :file => "bundleContents/COPYING" }
   s.author       = package['author']
-  s.platforms    = { :ios => "10.3", :osx => "10.11" }
+  s.platforms    = { :ios => "10.0", :osx => "10.11" }
   s.source       = { :git => "https://github.com/shirakaba/mecab-naist-jdic-utf-8.git", :tag => "v#{s.version}" }
   # TODO: Decide a good way to optionally include the model file (model_file)
   s.resource_bundle = { "mecab-naist-jdic-utf-8" => "bundleContents/*" }
